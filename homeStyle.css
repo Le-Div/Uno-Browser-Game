@@ -1,0 +1,166 @@
+.main_body{
+    background-color: coral;
+}
+
+#navbar{
+    margin: 0px;
+    background-color: black;
+    
+    color: coral;
+    font-size: 20px;
+    padding: 10px;
+    
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#PageLogo{
+    display: inline-block;
+}
+
+.buttonGroup{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+#login{
+    display: inline-block;
+}
+
+input{
+    background-color: black;
+    border: 2px solid;
+    border-color: coral;
+    color: coral;
+    display: inline-block;
+}
+
+#join{
+    border: 2px solid;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#disconnect{
+    border: 2px solid;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 10px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.mainGroup{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+    text-align: center;
+}
+
+
+#player_card_stacks{
+    margin: 60px;
+    background-color: transparent;
+    border: 5px solid;
+    width: auto;
+    height: inherit; 
+}
+
+
+#table{
+    background-color: transparent;
+    border-color: black;
+    border: 5px solid;
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+
+#draw_stack{
+    width: 120px;
+    height: 170px;
+    background-image: url(http://87.164.64.37:1234/image?pics/UNO-Back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 40px;
+    
+}
+
+#play_stack{
+    border: 2px solid;
+    border-color: black;
+    height: 170px;
+    width: 120px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 40px;   
+}
+
+#ButtonGroup2{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+#UNO-button{
+    margin: 20px;
+    background-color: transparent;
+    border: 5px solid;
+    
+    width: auto;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#colorset{
+    color: coral;
+    border: 5px solid;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+
+#pass{
+    margin: 20px;
+    background-color: transparent;
+    border: 5px solid;
+    
+    width: auto;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#my_card_stack{
+    border: 5px solid;
+    border-color: black;
+    margin: auto;
+    margin-top: 50px;
+    /*display: inline-flex;*/
+}
