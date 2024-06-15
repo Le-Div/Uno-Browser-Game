@@ -16,8 +16,8 @@ var unoflag = false;
 var unotrigger = false;
 var drawn_flag = false;
 
-var IP = '87.164.64.37';
-var PORT = "1234";
+var IP = '____________';
+var PORT = "________";
 
 //add connect and disconnect function
 var connect_func = connect;
